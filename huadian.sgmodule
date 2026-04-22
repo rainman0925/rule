@@ -4,11 +4,7 @@
 #!author = Boss
 
 [Rule]
-# fam域名
 DOMAIN-SUFFIX,fam.hdpi.cn,DEVICE:M1
-# 华电官方域名
 DOMAIN-SUFFIX,chd.com.cn,DEVICE:M1
-# 内网服务器单 IP
 IP-CIDR,10.76.203.41/32,DEVICE:M1,no-resolve
-# 内网网段 10.158.x.x
 IP-CIDR,10.158.0.0/16,DEVICE:M1,no-resolve
