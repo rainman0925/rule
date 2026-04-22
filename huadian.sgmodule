@@ -1,10 +1,10 @@
 #!name = 华电内网直连
-#!desc = 将华电集团内网域名与 IP 段通过 M1 设备定向分流
+#!desc = 将华电集团内网域名与 IP 段通过 mini设备定向分流
 #!category = 内网分流
 #!author = Boss
 
 [Rule]
-DOMAIN-SUFFIX,fam.hdpi.cn,DEVICE:M1
-DOMAIN-SUFFIX,chd.com.cn,DEVICE:M1
-IP-CIDR,10.76.203.41/32,DEVICE:M1,no-resolve
-IP-CIDR,10.158.0.0/16,DEVICE:M1,no-resolve
+DOMAIN-SUFFIX,fam.hdpi.cn,DEVICE:MINI
+DOMAIN-SUFFIX,chd.com.cn,DEVICE:MINI
+IP-CIDR,10.76.203.41/32,DEVICE:MINI,no-resolve
+IP-CIDR,10.158.0.0/16,DEVICE:MINI,no-resolve
